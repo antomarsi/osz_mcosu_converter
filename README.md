@@ -7,7 +7,7 @@ You need to give a input folder and a output folder to extract:
 
 ## Requirements
 ```
-python 3
+python 3.7
 ```
 
 ## Usage
@@ -21,7 +21,14 @@ You can use custom arguments:
 * --overwrite: Will overwrite a folder if already exist in the output folder
 * --recursive: Will search recursively for `.osz` files in the input directory.
 
-If you downloaded the exe version on the releases, you can just use:
+If you downloaded the executable version on the releases, you can just use:
+
+Windows:
 ```cmd
 osz_converter.exe <input folder> <output folder>
+```
+
+Linux:
+```bash
+osz_converter <input folder> <output folder>
 ```
